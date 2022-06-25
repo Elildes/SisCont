@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="336.0" prefWidth="528.0" xmlns="http://javafx.com/javafx/8.0.301" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ufrn.imd.controle.TelaSobreControle">
+   <children>
+      <Label fx:id="lblInfo" layoutX="222.0" layoutY="24.0" prefHeight="23.0" prefWidth="70.0" text="SisCont">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnOk" layoutX="216.0" layoutY="274.0" mnemonicParsing="false" onAction="#sairTelaSobre" prefHeight="35.0" prefWidth="82.0" text="Ok" />
+      <Label fx:id="lblInfo1" layoutX="23.0" layoutY="89.0" prefHeight="23.0" prefWidth="482.0" text="O SisCont é um sistema Contábil que registra o Livro Diário">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblInfo11" layoutX="77.0" layoutY="120.0" prefHeight="23.0" prefWidth="360.0" text="das operações mercantins de uma empresa.">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblInfo2" layoutX="215.0" layoutY="56.0" prefHeight="23.0" prefWidth="98.0" text="Versão: 1.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblInfo111" layoutX="23.0" layoutY="157.0" prefHeight="23.0" prefWidth="482.0" text="Esta versão foi desenvoldida utilizando o Eclipse versão">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblInfo1111" layoutX="64.0" layoutY="189.0" prefHeight="23.0" prefWidth="387.0" text="2021-06 (4.20.0) e o Scene Builder 26.0.0 para">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblInfo11111" layoutX="122.0" layoutY="223.0" prefHeight="23.0" prefWidth="271.0" text="implementar o GUI com o JavaFX">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
